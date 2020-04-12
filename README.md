@@ -13,17 +13,17 @@ Then you can add a configuration section for
 `amo_upload` task in your `Gruntfile.js`:
 
 ```js
-// If you dont' use a `load-grunt-tasks` module,
+// If you don't use a `load-grunt-tasks` module,
 // you should load `grunt-amo-upload` directly.
 grunt.loadNpmTasks('grunt-amo-upload');
 
 grunt.initConfig({
 	amo_upload: {
 		issuer: 'Your AMO issuer',
-		secret: 'Your AMO secret,
-		id: 'Your extension  ID,
+		secret: 'Your AMO secret',
+		id: 'Your extension ID',
 		version: 'Version to upload',
-		src: 'path/to/zip/file,
+		src: 'path/to/zip/file',
 	}
 });
 ```
