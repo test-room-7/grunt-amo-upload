@@ -1,6 +1,6 @@
 {
   "name": "grunt-amo-upload",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Alexey <alex.esprit@gmail.com>",
   "description": "A Grunt task to upload a WebExtension to Addons.mozilla.org",
   "license": "MIT",
