@@ -1,0 +1,35 @@
+{
+  "name": "grunt-amo-upload",
+  "version": "0.0.1",
+  "author": "Alexey <alex.esprit@gmail.com>",
+  "description": "A Grunt task to upload a WebExtension to Addons.mozilla.org",
+  "license": "MIT",
+  "files": [
+    "tasks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-scrobbler/grunt-amo-upload.git"
+  },
+  "keywords": [
+    "amo",
+    "grunt",
+    "gruntplugin"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "firefox-extension-deploy": "1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-web-scrobbler": "^0.1.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=1"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  }
+}
