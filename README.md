@@ -19,14 +19,16 @@ grunt.loadNpmTasks('grunt-amo-upload');
 
 grunt.initConfig({
 	amo_upload: {
-		issuer: 'Your AMO issuer',
-		secret: 'Your AMO secret',
+		issuer: 'Your JWT issuer',
+		secret: 'Your JWT secret',
 		id: 'Your extension ID',
 		version: 'Version to upload',
 		src: 'path/to/zip/file',
 	}
 });
 ```
+
+You can get JWT issuer and JWT secret for your account [here][AmoApiKey].
 
 ## License
 
@@ -39,3 +41,6 @@ Licensed under the [MIT License](./LICENSE).
 <!-- Related pages -->
 [Npm]: https://www.npmjs.com/package/grunt-amo-upload
 [Workflow]: https://github.com/web-scrobbler/grunt-amo-upload/actions?query=workflow%3ALint
+
+<!-- Other pages -->
+[AmoApiKey]: https://addons.mozilla.org/en-US/developers/addon/api/key/
