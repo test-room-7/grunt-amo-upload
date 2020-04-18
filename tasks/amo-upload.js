@@ -16,7 +16,7 @@ module.exports = (grunt) => {
 			await deploy(data);
 			grunt.log.ok('Uploaded successfully.');
 		} catch (err) {
-			grunt.log.error(err);
+			grunt.fail.fatal(err);
 		} finally {
 			done();
 		}
